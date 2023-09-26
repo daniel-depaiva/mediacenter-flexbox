@@ -1,223 +1,357 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=0" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=0" />
-  <link rel="stylesheet" type="text/css" href="./style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
-  <title>MediaCenter</title>
-</head>
+    <!-- Arquivo javascript para animação de menu para mobile -->
+    <script src="./app.js"></script>
+    
+    <title>MediaCenter</title>
+  </head>
 
-<body>
-  <header>
-    <div class="container">
-      <div class="logo">
-        <a href="#"><img src="./img/logo.png" alt="Logo" /></a>
-      </div>
-
-      <div class="menu">
-        <nav class="navbar-menu">
-          <ul>
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">pages</a></li>
-            <li><a href="#">blog</a></li>
-            <li><a href="#">departments</a></li>
-            <li><a href="#">timetable</a></li>
-            <li><a href="#">gallery</a></li>
-            <li><a href="#">contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </header>
-
-  <section id="banner">
-    <div class="container column">
-      <div class="banner-headline">
-        <h1>Top notch experience</h1>
-        <h2>
-          Lorem ipsum dolor sit amet consectetur,voluptatum officia modi
-        </h2>
-      </div>
-
-      <div class="banner-options">
-        <div class="banner1">
-          <div class="banner-title">Emergency Case</div>
-          <div class="banner-desc">
-            Lorem ipsum, dolor sit amet consectetur
-          </div>
-          <a href="#">Read more</a>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <a href="#"><img src="./img/logo.png" alt="Logo" /></a>
         </div>
-        <div class="banner2">
-          <div class="banner-title">Doctors Titmetable</div>
-          <div class="banner-desc">
-            Lorem ipsum, dolor sit amet consectetur
-          </div>
-          <a href="#">Read more</a>
-        </div>
-        <div class="banner3">
-          <div class="banner-title">Opening Hours</div>
 
-          <div class="banner-prices">
-            <div>Monday - Friday</div>
-            <div>08.00 - 17.00</div>
-          </div>
-
-          <div class="banner-prices">
-            <div>Saturday</div>
-            <div>09:30 - 17.30</div>
-          </div>
-
-          <div class="banner-prices">
-            <div>Sunday</div>
-            <div>09:30 - 15.00</div>
-          </div>
+        <div class="menu">
+          <nav class="navbar-menu">
+            <div class="menuMobile">
+              <div class="mm-line"></div>
+              <div class="mm-line"></div>
+              <div class="mm-line"></div>
+            </div>
+            <ul>
+              <li class="active"><a href="">Home</a></li>
+              <li><a href="">pages</a></li>
+              <li><a href="">blog</a></li>
+              <li><a href="">departments</a></li>
+              <li><a href="">timetable</a></li>
+              <li><a href="">gallery</a></li>
+              <li><a href="">contact</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
-    </div>
-  </section>
+    </header>
 
-  <section id="geral">
-    <div class="container">
-      <section>
-        <div class="widget">
-          <div class="widget-title">
-            <div class="widget-title-text">Latest News</div>
-            <div class="widget-title-bar"></div>
-          </div>
-          <div class="widget-body flex">
-            <article>
-              <a href="#">
-                <div class="news-data">
-                  <div class="news-posted-at">01 Jan 23</div>
-                  <div class="news-comments">02</div>
-                </div>
-                <div class="news-thumbnail">
-                  <img src="./img/medico-1.webp" alt="" />
-                </div>
-                <div class="news-title">Lorem ipsum dolor sit amet velum</div>
-                <div class="news-resume">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Ipsum nulla nobis hic pariatur quidem doloremque consectetur
-                  aliquam quod, veritatis exercitationem! Quasi eum ut
-                  doloremque sunt vero iste! Quas pariatur a officia nisi
-                  ipsum praesentium ad, ratione molestiae recusandae fuga
-                  vitae.
-                </div>
-              </a>
-            </article>
-
-            <article>
-              <a href="#">
-                <div class="news-data">
-                  <div class="news-posted-at">01 Jan 23</div>
-                  <div class="news-comments">02</div>
-                </div>
-                <div class="news-thumbnail">
-                  <img src="./img/medico-1.webp" alt="" />
-                </div>
-                <div class="news-title">Lorem ipsum dolor sit amet velum</div>
-                <div class="news-resume">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Ipsum nulla nobis hic pariatur quidem doloremque consectetur
-                  aliquam quod, veritatis exercitationem! Quasi eum ut
-                  doloremque sunt vero iste! Quas pariatur a officia nisi
-                  ipsum praesentium ad, ratione molestiae recusandae fuga
-                  vitae.
-                </div>
-              </a>
-            </article>
-
-            <article>
-              <a href="#">
-                <div class="news-data">
-                  <div class="news-posted-at">01 Jan 23</div>
-                  <div class="news-comments">02</div>
-                </div>
-                <div class="news-thumbnail">
-                  <img src="./img/medico-1.webp" alt="" />
-                </div>
-                <div class="news-title">Lorem ipsum dolor sit amet velum</div>
-                <div class="news-resume">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Ipsum nulla nobis hic pariatur quidem doloremque consectetur
-                  aliquam quod, veritatis exercitationem! Quasi eum ut
-                  doloremque sunt vero iste! Quas pariatur a officia nisi
-                  ipsum praesentium ad, ratione molestiae recusandae fuga
-                  vitae.
-                </div>
-              </a>
-            </article>
-
-            <article>
-              <a href="#">
-                <div class="news-data">
-                  <div class="news-posted-at">01 Jan 23</div>
-                  <div class="news-comments">02</div>
-                </div>
-                <div class="news-thumbnail">
-                  <img src="./img/medico-1.webp" alt="" />
-                </div>
-                <div class="news-title">Lorem ipsum dolor sit amet velum</div>
-                <div class="news-resume">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Ipsum nulla nobis hic pariatur quidem doloremque consectetur
-                  aliquam quod, veritatis exercitationem! Quasi eum ut
-                  doloremque sunt vero iste! Quas pariatur a officia nisi
-                  ipsum praesentium ad, ratione molestiae recusandae fuga
-                  vitae.
-                </div>
-              </a>
-            </article>
-          </div>
-        </div>
-      </section>
-      <aside>
-        <div class="widget">
-          <div class="widget-title">
-            <div class="widget-title-text">Deparments</div>
-            <div class="widget-title-bar"></div>
-          </div>
-          <div class="widget-body-depar">
-            <div class="body-depar"></div>
-            <div class="body-depar"></div>
-            <div class="body-depar"></div>
-            <div class="body-depar"></div>
-            <div class="body-depar"></div>
-            <div class="body-depar"></div>
-          </div>
+    <section id="banner">
+      <div class="container column">
+        <div class="banner-headline">
+          <h1>Top notch experience</h1>
+          <h2>
+            Lorem ipsum dolor sit amet consectetur,voluptatum officia modi
+          </h2>
         </div>
 
-        <div class="widget">
-          <div class="widget-title">
-            <div class="widget-title-text">Make an Appointment</div>
-            <div class="widget-title-bar"></div>
+        <div class="banner-options">
+          <div class="banner1">
+            <div class="banner-title">Emergency Case</div>
+            <div class="banner-desc">
+              Lorem ipsum, dolor sit amet consectetur
+            </div>
+            <a href="#">Read more</a>
           </div>
-          <div class="widget-body-desc">
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Quisquam, fugit?
-            </p>
-            <div class="media-desc">
-              <div class="media-desc-icon">
-                <i class="fa fa-phone"></i>by phone
-                <strong>1-800-443-4300</strong>
+          <div class="banner2">
+            <div class="banner-title">Doctors Titmetable</div>
+            <div class="banner-desc">
+              Lorem ipsum, dolor sit amet consectetur
+            </div>
+            <a href="#">Read more</a>
+          </div>
+          <div class="banner3">
+            <div class="banner-title">Opening Hours</div>
+
+            <div class="banner-prices">
+              <div>Monday - Friday</div>
+              <div>08.00 - 17.00</div>
+            </div>
+
+            <div class="banner-prices">
+              <div>Saturday</div>
+              <div>09:30 - 17.30</div>
+            </div>
+
+            <div class="banner-prices">
+              <div>Sunday</div>
+              <div>09:30 - 15.00</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="geral">
+      <div class="container">
+        <section>
+          <div class="widget">
+            <div class="widget-title">
+              <div class="widget-title-text">Latest News</div>
+              <div class="widget-title-bar"></div>
+            </div>
+            <div class="widget-body flex">
+              <article>
+                <a href="#">
+                  <div class="news-data">
+                    <div class="news-posted-at">01 Jan 23</div>
+                    <div class="news-comments">02</div>
+                  </div>
+                  <div class="news-thumbnail">
+                    <img src="./img/medico-1.webp" alt="" />
+                  </div>
+                  <div class="news-title">Lorem ipsum dolor sit amet velum</div>
+                  <div class="news-resume">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsum nulla nobis hic pariatur quidem doloremque consectetur
+                    aliquam quod, veritatis exercitationem! Quasi eum ut
+                    doloremque sunt vero iste! Quas pariatur a officia nisi
+                    ipsum praesentium ad, ratione molestiae recusandae fuga
+                    vitae.
+                  </div>
+                </a>
+              </article>
+
+              <article>
+                <a href="#">
+                  <div class="news-data">
+                    <div class="news-posted-at">01 Jan 23</div>
+                    <div class="news-comments">02</div>
+                  </div>
+                  <div class="news-thumbnail">
+                    <img src="./img/medico-1.webp" alt="" />
+                  </div>
+                  <div class="news-title">Lorem ipsum dolor sit amet velum</div>
+                  <div class="news-resume">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsum nulla nobis hic pariatur quidem doloremque consectetur
+                    aliquam quod, veritatis exercitationem! Quasi eum ut
+                    doloremque sunt vero iste! Quas pariatur a officia nisi
+                    ipsum praesentium ad, ratione molestiae recusandae fuga
+                    vitae.
+                  </div>
+                </a>
+              </article>
+
+              <article>
+                <a href="#">
+                  <div class="news-data">
+                    <div class="news-posted-at">01 Jan 23</div>
+                    <div class="news-comments">02</div>
+                  </div>
+                  <div class="news-thumbnail">
+                    <img src="./img/medico-1.webp" alt="" />
+                  </div>
+                  <div class="news-title">Lorem ipsum dolor sit amet velum</div>
+                  <div class="news-resume">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsum nulla nobis hic pariatur quidem doloremque consectetur
+                    aliquam quod, veritatis exercitationem! Quasi eum ut
+                    doloremque sunt vero iste! Quas pariatur a officia nisi
+                    ipsum praesentium ad, ratione molestiae recusandae fuga
+                    vitae.
+                  </div>
+                </a>
+              </article>
+
+              <article>
+                <a href="#">
+                  <div class="news-data">
+                    <div class="news-posted-at">01 Jan 23</div>
+                    <div class="news-comments">02</div>
+                  </div>
+                  <div class="news-thumbnail">
+                    <img src="./img/medico-1.webp" alt="" />
+                  </div>
+                  <div class="news-title">Lorem ipsum dolor sit amet velum</div>
+                  <div class="news-resume">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsum nulla nobis hic pariatur quidem doloremque consectetur
+                    aliquam quod, veritatis exercitationem! Quasi eum ut
+                    doloremque sunt vero iste! Quas pariatur a officia nisi
+                    ipsum praesentium ad, ratione molestiae recusandae fuga
+                    vitae.
+                  </div>
+                </a>
+              </article>
+            </div>
+          </div>
+        </section>
+        <aside>
+          <div class="widget">
+            <div class="widget-title">
+              <div class="widget-title-text">Deparments</div>
+              <div class="widget-title-bar"></div>
+            </div>
+            <div class="widget-body-depar">
+              <div class="body-depar"></div>
+              <div class="body-depar"></div>
+              <div class="body-depar"></div>
+              <div class="body-depar"></div>
+              <div class="body-depar"></div>
+              <div class="body-depar"></div>
+            </div>
+          </div>
+
+          <div class="widget">
+            <div class="widget-title">
+              <div class="widget-title-text">Make an Appointment</div>
+              <div class="widget-title-bar"></div>
+            </div>
+            <div class="widget-body-desc">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Quisquam, fugit?
+              </p>
+              <div class="media-desc">
+                <div class="media-desc-icon">
+                  <i class="fa fa-phone"></i>by phone
+                  <strong>1-800-443-4300</strong>
+                </div>
+                <div class="media-desc-icon">
+                  <i class="fa fa-envelope"></i>by email mediacenter@mail.com
+                </div>
+                <div class="media-desc-icon">
+                  <i class="fa-regular fa-calendar"></i>on ou contact page
+                </div>
               </div>
-              <div class="media-desc-icon">
-                <i class="fa fa-envelope"></i>by email mediacenter@mail.com
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container flexColumn">
+        <div class="footer-menu">
+          <div class="fm-1">Health Insurance</div>
+          <div class="fm-2">Medical Records</div>
+          <div class="fm-3">Online Bill Pay</div>
+        </div>
+
+        <div class="footer-area">
+          <div class="footer-areaitem">
+            <div class="widget">
+              <div class="widget-title">
+                <div class="widget-title-text">Medicenter Clinic</div>
+                <div class="widget-title-bar"></div>
               </div>
-              <div class="media-desc-icon">
-                <i class="fa-regular fa-calendar"></i>on ou contact page
+              <div class="widget-body-helth">
+                <div class="widget-body-description">
+                  <p>Mauris adipiscing mauris fingilla turpis interdum sed pulvinar nisi malesuada individual.</p>
+                  <br>
+                </div>
+
+                <div class="widget-footer-box">
+                  <div class="widget-footer-address">
+                    <p>Medicenter Clinic</p>
+                    <p>33 Farlane Street</p>
+                    <p>Keitor East</p>
+                    <p>VIC 3033, Australia</p>
+                  </div>
+  
+                  <div class="widget-footer-contact">
+                    <p>+123 655 655</p>
+                    <p>+123 755 755</p>
+                    <p style="color: #FAFAFA">mediacenter@mail.com</p>
+                  </div>
+  
+                </div>
+                <div class="widget-footer-icons">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-solid fa-envelope"></i>
+                  <i class="fa-solid fa-calendar"></i>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-areaitem">
+            <div class="widget">
+              <div class="widget-title">
+                <div class="widget-title-text">Latest Posts</div>
+                <div class="widget-title-bar"></div>
+              </div>
+              <div class="widget-body-post">
+                <a href="">
+                  <p>⇢</p>
+                  <p>
+                    Mauris adipiscing mauris fingilla turpis interdum: sed
+                    pulvinar nisi malesuada<br/>
+                    <span>6 years ago</span>
+                  </p>
+                </a>
+                <a href="">
+                  <p>⇢</p>
+                  <p>
+                    Lorem Ipsum dolor sit amalt velum.<br/>
+                    <span>6 years ago</span>
+                  </p>
+                </a>
+                <a href="">
+                  <p>⇢</p>
+                  <p>
+                    Mauris adipiscing mauris fingilla turpis interdum: sed
+                    pulvinar nisi malesuada.<br/>
+                    <span>6 years ago</span>
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-areaitem">
+            <div class="widget">
+              <div class="widget-title">
+                <div class="widget-title-text">Lastest Tweets</div>
+                <div class="widget-title-bar"></div>
+              </div>
+              <div class="widget-body-latest-tweets">
+                <a href="">
+                  <p>⇢</p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                    et gravida nibh. Nulla facilisi. Integer non cursus eros,
+                    convallis hendrerit libero.<br/>
+                    <span>4 days ago</span>
+                  </p>
+                </a>
+                <a href="">
+                  <p>⇢</p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                    et gravida nibh. Nulla facilisi. Integer non cursus eros,
+                    convallis hendrerit libero.<br/>
+                    <span>6 days ago</span>
+                  </p>
+                </a>
+                <a href="">
+                  <p>⇢</p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                    et gravida nibh. Nulla facilisi. Integer non cursus eros,
+                    convallis hendrerit libero.<br/>
+                    <span>7 days ago</span>
+                  </p>
+                </a>
               </div>
             </div>
           </div>
         </div>
-      </aside>
-    </div>
-  </section>
 
-  <footer></footer>
-</body>
-
+        <div class="footer-copy">
+          © Coypright - Todos os direitos reservados
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
